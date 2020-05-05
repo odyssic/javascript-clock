@@ -1,5 +1,5 @@
 html {
-    background: #018ded;
+    background-image: url(clouds-iphone-rivers-stock-images-amazing-high-resolution.jpg);
     background-size: cover;
     font-family: "helvetica neue";
     text-align: center;
@@ -12,25 +12,27 @@ body {
 
 .hand {
     width: 50%;
-    height: 6px;
+    height: 12px;
     background: black;
     position: absolute;
+    border-radius: 25px;
     top: 50%;
     transform-origin: 100%;
     transform: rotate(90deg);
     transition: all o.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    box-shadow: black;
 }
 
 .clock {
     width: 30rem;
     height: 30rem;
-    border: 20px solid white;
+    border: 20px solid pink;
     border-radius: 50%;
     margin: 50px auto;
     position: relative;
     padding: 2rem;
-    box-shadow: 0 0 0px 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef, inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0px 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px pink, inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .clock-face {
@@ -40,8 +42,19 @@ body {
     transform: translateY(-3px);
 }
 
-.hour-hand {}
+.hour-hand {
+    background-color: slategray;
+    height: 19px;
+    width: 50%;
+    box-shadow: slategrey;
+}
 
-.min-hand {}
+.minute-hand {
+    background-color: slategrey;
+    height: 12px;
+}
 
-.second-hand {}
+.second-hand {
+    background-color: pink;
+    height: 4px;
+}
