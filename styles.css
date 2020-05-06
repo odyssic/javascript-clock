@@ -43,7 +43,8 @@ body {
 }
 
 .hour-hand {
-    background-color: slategray;
+    background-color: white;
+    border: solid 3px slategray;
     height: 19px;
     width: 50%;
     box-shadow: slategrey;
