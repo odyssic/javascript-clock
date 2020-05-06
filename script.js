@@ -18,3 +18,12 @@ function setDate() {
 }
 
 setInterval(setDate, 1000);
+
+function displayClock() {
+    clock = document.querySelector("body");
+    clock.style.display = "block";
+}
+
+setTimeout(() => {
+    displayClock();
+}, 1000);
