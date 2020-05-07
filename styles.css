@@ -60,3 +60,7 @@ body {
     background-color: pink;
     height: 4px;
 }
+
+.words {
+    display: none;
+}

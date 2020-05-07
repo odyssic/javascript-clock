@@ -19,6 +19,18 @@ function setDate() {
 
 setInterval(setDate, 1000);
 
+function displayWords() {
+    const now = new Date();
+    second = now.getSeconds();
+    words = document.querySelector(".words");
+    console.log(second);
+    if (seconds % 5 === 0) {
+        words.style.display = "block";
+    } else {
+        words.style.display = "none";
+    }
+}
+
 function displayClock() {
     clock = document.querySelector("body");
     clock.style.display = "block";
@@ -26,4 +38,5 @@ function displayClock() {
 
 setTimeout(() => {
     displayClock();
+    displayWords();
 }, 1000);
