@@ -62,5 +62,8 @@ body {
 }
 
 .words {
-    display: none;
+    font-size: 200%;
+    font-family: "Times New Roman", Times, serif;
+    color: darkgray;
+    position: absolute;
 }
