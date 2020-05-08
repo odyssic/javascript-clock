@@ -25,16 +25,9 @@ function displayWords() {
     let randomIndex = Math.floor(Math.random() * array.length);
     let randomWord = array[randomIndex];
     console.log(randomWord);
-    // const now = new Date();
-    // second = now.getSeconds();
     words.innerHTML = `${randomWord}`;
-    // $(".words").fadeToggle(2500);
+    // $(".words").fadeToggle(500);
 }
-
-// function removeWords() {
-//     let words = document.querySelector(".words");
-//     $(".words").fadeOut();
-// }
 
 function displayClock() {
     let clock = document.querySelector("body");
@@ -310,7 +303,7 @@ array = [
 
 setInterval(() => {
     displayWords();
-}, 1000);
+}, 2000);
 
 // setTimeout(() => {
 //     removeWords();

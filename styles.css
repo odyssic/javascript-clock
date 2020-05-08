@@ -63,7 +63,8 @@ body {
 
 .words {
     font-size: 200%;
-    font-family: "Times New Roman", Times, serif;
-    color: darkgray;
-    position: absolute;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-shadow: darkgray;
 }
